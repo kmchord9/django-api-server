@@ -1,6 +1,10 @@
 # django-api-server
 
 pythonのバージョンは3.7を使用する
+docker images
+balenalib/raspberrypi3-debian-python:3.7.6-stretch-build
+
+
 ```
 pip install pipenv
 pipenv install
