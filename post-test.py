@@ -1,11 +1,11 @@
 import base64
 import json
 import urllib.request
+#from sensor_module.ADT7140 import *
 
 #パスコードを外部に設定
 from key import *
 
-# 変数は必要に応じて外部化してください。
 url = "http://localhost:8000/api/logs/"
 method = "POST"
 headers = {"Content-Type": "application/json", }
