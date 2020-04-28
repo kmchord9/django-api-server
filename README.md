@@ -14,5 +14,5 @@ python manage.py migrate
 #ユーザー作成
 python manage.py createsuperuser
 
-#
+#key作成
 ```
