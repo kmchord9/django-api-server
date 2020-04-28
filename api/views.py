@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django_filters
+import django_filters
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import TemplateView
 from rest_framework import serializers
@@ -13,14 +13,16 @@ from .models import Log
 
 class LogSerializer(serializers.ModelSerializer):
   class Meta:
-    models = Log
+    model = Log
     fields = '__all__'
 
 class LogFilter(django_filters.FilterSet):
   class Meta:
+    model = Log
+    fields = {'created_at': ['gte', ], }
 
 class LogViewSet(viewsets.ModelViewSet):
-  queryset = Log.objects.all().order_by("create_at")
+  queryset = Log.objects.all().order_by("created_at")
 
   serializer_class = LogSerializer
   filter_class = LogFilter
