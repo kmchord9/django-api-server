@@ -1,6 +1,8 @@
 import base64
 import json
 import urllib.request
+
+#パスコードを外部に設定
 from key import *
 
 # 変数は必要に応じて外部化してください。
