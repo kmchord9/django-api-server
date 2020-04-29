@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "514249165a2d559e1e185e1ac210cafdd7b86310ac6e81e0e68cf643c88f9587"
+            "sha256": "49beaa528b4580d63af6557464893b294e7e5d152eec0dc2f25926c237c1d70f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -55,10 +55,17 @@
         },
         "pytz": {
             "hashes": [
-                "sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d",
-                "sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
+                "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
+                "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
             ],
-            "version": "==2019.3"
+            "version": "==2020.1"
+        },
+        "smbus2": {
+            "hashes": [
+                "sha256:210e66eebe4d0b1fe836b3ec2751841942e1c4918c0b429b20a0e20a222228b4"
+            ],
+            "index": "pypi",
+            "version": "==0.3.0"
         },
         "sqlparse": {
             "hashes": [

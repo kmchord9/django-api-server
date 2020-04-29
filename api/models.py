@@ -5,7 +5,7 @@ from django.db import models
 class Log(models.Model):
   created_at = models.DateTimeField(
     verbose_name='登録時間',
-    #auto_now_add=True,
+    auto_now_add=True,
   )
   temperature = models.FloatField(
     verbose_name='気温',
