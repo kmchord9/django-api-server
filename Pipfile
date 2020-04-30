@@ -9,8 +9,6 @@ verify_ssl = true
 django = "*"
 django-rest-framework = "*"
 django-filter = "*"
-smbus2 = "*"
-RPi.GPIO = "*"
 
 [requires]
 python_version = "3.7"
