@@ -1,10 +1,10 @@
 import base64
 import json
 import urllib.request
-#from key import *
+from key import *
 
 # 変数は必要に応じて外部化してください。
-url = "http://localhost:8000/api/logs/"
+url = "http://localhost:3000/api/logs/"
 method = "POST"
 headers = {"Content-Type": "application/json", }
 

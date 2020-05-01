@@ -116,4 +116,7 @@ key.py
 #sqlfile
 db.sqlite3
 
+#migrations
+api/migrations/*_initial.py
+
 # End of https://www.gitignore.io/api/python
