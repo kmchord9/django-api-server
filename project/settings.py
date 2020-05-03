@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'api',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'project.urls'
@@ -134,3 +136,12 @@ REST_FRAMEWORK = {
 #管理画面
 LOGIN_URL = '/admin/login/'
 LOGOUT_REDIRECT_URL = '/'
+
+#ORS_ORIGIN_WHITELIST = [
+#    'localhost:3000',
+#    '192.168.1.6:3000',
+#]
+
+#CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
