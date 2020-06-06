@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "49beaa528b4580d63af6557464893b294e7e5d152eec0dc2f25926c237c1d70f"
+            "sha256": "514249165a2d559e1e185e1ac210cafdd7b86310ac6e81e0e68cf643c88f9587"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -25,11 +25,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:642d8eceab321ca743ae71e0f985ff8fdca59f07aab3a9fb362c617d23e33a76",
-                "sha256:d4666c2edefa38c5ede0ec1655424c56dc47ceb04b6d8d62a7eac09db89545c1"
+                "sha256:5052b34b34b3425233c682e0e11d658fd6efd587d11335a0203d827224ada8f2",
+                "sha256:e1630333248c9b3d4e38f02093a26f1e07b271ca896d73097457996e0fae12e8"
             ],
             "index": "pypi",
-            "version": "==3.0.5"
+            "version": "==3.0.7"
         },
         "django-filter": {
             "hashes": [
@@ -59,13 +59,6 @@
                 "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
             ],
             "version": "==2020.1"
-        },
-        "smbus2": {
-            "hashes": [
-                "sha256:210e66eebe4d0b1fe836b3ec2751841942e1c4918c0b429b20a0e20a222228b4"
-            ],
-            "index": "pypi",
-            "version": "==0.3.0"
         },
         "sqlparse": {
             "hashes": [
